@@ -1,0 +1,38 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.card-img-top {
+    height: 220px;
+}
+
+
+.color-verde {
+    background-color: #28A745;
+}
+
+
+.color-blanco {
+    background-color: #FFFFFF;
+}
+
+.text-promo {
+    color: #28A745;
+}
+
+.text-sin-promo {
+    color: #707070;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 42vh;
+}
+
+.fs-2 {
+    font-size: calc(1.07rem + .7vw) !important;
+}
